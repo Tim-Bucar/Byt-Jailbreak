@@ -1,3 +1,4 @@
+print("v1.0.0")+
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
@@ -81,7 +82,7 @@ local TurnSpeed = 14
 	Content = "Unloads the script",
 	Callback = function ()
 		Unload = true
-			game:GetService("CoreGui").BytHub:Destroy()
+			game:GetService("CoreGui").UiLib:Destroy()
 	end
 })
 local function GetVehicle()
