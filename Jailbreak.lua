@@ -12,6 +12,7 @@ local function Load()
 	Window:AddTitle("BytHub | Free")
 	local main = Window:AddTab("rbxassetid://", "Vehicle Modifications")
 	local Config = Window:AddTab("rbxassetid://", "Configuration")
+    local General = Window:AddTab("rbxassetid://", "General")
 	local VehicleMod = main:AddSection("Vehicle Modifications")
 --———————————————————————————————————————— Heli Ui —————————————————————————————————————————————--
 local HeliMod = false
@@ -75,7 +76,7 @@ local TurnSpeed = 14
 		TurnSpeed =  value
 	end
 })
-	Config:AddButton({
+	General:AddButton({
 	Title = "Unload",
 	Content = "Unloads the script",
 	Callback = function ()
