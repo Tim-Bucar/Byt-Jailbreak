@@ -4,7 +4,6 @@ local Player = Players.LocalPlayer
 local Unload = false
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tim-Bucar/UiLib/refs/heads/main/UiLib.lua"))()
 local VehicleUtils = require(game:GetService("ReplicatedStorage").Vehicle.VehicleUtils)
-print("ass")
 local function Load() 
 	local Window = Library:CreateWindow({
 		Accent = Color3.fromRGB(100, 170, 255),  -- recolor the whole UI from here
